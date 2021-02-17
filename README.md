@@ -15,8 +15,8 @@ The object is to use existing JSON parsing libraries to ingest the JSON version 
 
 ## Workflow
 1. Check out the project
-2. Use pipenv to initilaize the environment (basically go to the dir and say pipenv shell) if you get a shell you are in a good place
-3. Install Black and make sure you can run pytest
+2. Install Black and make sure you can run pytest
+3. Use pipenv to initilaize the environment (basically go to the dir and say pipenv shell) if you get a shell you are in a good place
 4. Write your code
 5. Write your unit-tests -- you are done when all your unit tests pass
 6. Propose new methods to the class -- implement those new methods
