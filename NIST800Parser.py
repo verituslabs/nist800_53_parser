@@ -1,12 +1,11 @@
-
 from typing import NoReturn, List, Dict
 
-class NIST800Parser:
 
+class NIST800Parser:
     def __init__(self):
         pass
 
-    def parse_json(self, file_name: str)i -> NoReturn:
+    def parse_json(self, file_name: str) -> NoReturn:
         raise NotImplementedError
 
     def get_groups(self) -> List[Dict]:
@@ -39,3 +38,6 @@ class NIST800Parser:
     def get_parts_by_control_id(self, control_id: str) -> List[Dict]:
         raise NotImplementedError
 
+def test_dummy():
+    np = NIST800Parser() 
+    assert(True == True) #dummy test
